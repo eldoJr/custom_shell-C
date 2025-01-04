@@ -1,0 +1,13 @@
+CC = gcc
+CFLAGS = -Wall -g
+SRC = src/main.c src/command_parser.c src/builtins.c src/executor.c
+HEADERS = src/command_parser.h src/builtins.h src/executor.h
+TARGET = custom_shell
+
+all: $(TARGET)
+
+$(TARGET): $(SRC) $(HEADERS)
+	$(CC) $(CFLAGS) -o $(TARGET) $(SRC)
+
+clean:
+	rm -f $(TARGET)
