@@ -10,13 +10,13 @@ This project implements a simple custom command-line shell in C with support for
 ## Installation
 Clone the repository:
 ```sh
-    git clone https://github.com/eldoJr/custom_shell-C.git
+git clone https://github.com/eldoJr/custom_shell-C.git
 ```
 
 
 ## Navigate into the project directory:
 ```sh
-    cd custom_shell-C
+cd custom_shell-C
 ```
 
 ## Running the Shell
@@ -26,12 +26,12 @@ To run the custom shell, use the following command:
 ```
 ## Compile the source code:
 ```sh
-    gcc -Wall -g -o custom_shell src/main.c src/command_parser.c src/builtins.c src/executor.c
+gcc -Wall -g -o custom_shell src/main.c src/command_parser.c src/builtins.c src/executor.c
 ```
 ## Usage
 ```bash
-    ./custom_shell
+./custom_shell
 ```
 License
-This project is licensed under the ![MIT License](./LICENSE.txt) - see the LICENSE file for details.
+This project is licensed under the [MIT License](./LICENSE.txt) - see the LICENSE file for details.
  
